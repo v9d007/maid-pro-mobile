@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MaidPro",
+    "slug": "maid-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "maidpro",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "splash": {
+      "backgroundColor": "#005c55"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.maidpro.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#005c55",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "package": "com.maidpro.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
